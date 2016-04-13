@@ -11,4 +11,3 @@ ExecStop=/opt/atlassian/crowd/stop_crowd.sh
 
 [Install]
 WantedBy=multi-user.target
-
