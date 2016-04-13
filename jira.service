@@ -1,14 +1,14 @@
-[Unit] 
+[Unit]
 Description=Jira Issue & Project Tracking Software
 After=network.target
 
-[Service] 
+[Service]
 Type=forking
 User=jira
 PIDFile=/opt/atlassian/jira/work/catalina.pid
 ExecStart=/opt/atlassian/jira/bin/start-jira.sh
 ExecStop=/opt/atlassian/jira/bin/stop-jira.sh
+Environment=JRE_HOME=/usr/lib/jvm/java-8-jdk/jre
 
-[Install] 
-WantedBy=multi-user.target 
-
+[Install]
+WantedBy=multi-user.target
