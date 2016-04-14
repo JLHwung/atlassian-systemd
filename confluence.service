@@ -10,4 +10,4 @@ ExecStart=/opt/atlassian/confluence/bin/start-confluence.sh
 ExecStop=/opt/atlassian/confluence/bin/stop-confluence.sh
 
 [Install]
-WantedBy=multi-user.target 
+WantedBy=multi-user.target
